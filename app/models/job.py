@@ -23,6 +23,12 @@ jobs = Table(
 
     Column("jd", Text),
 
+    Column("sponsorship_status", String),
+
+    Column("is_cs_role", String),
+
+    Column("is_us_job", String),
+
     Column("apply_link", String),
 
     Column("source", String)
